@@ -1,0 +1,114 @@
+#ifndef GLOBAL_H
+#define	GLOBAL_H
+
+#include	<stdio.h>
+#include	<stdlib.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>
+#include "OSType.h"
+#include <time.h>
+
+#define HANDLE void*
+
+#define VERSION	"BASS_1.0.0_alpha_02"
+
+extern void NBDLog(const Int8 *fmt, ...);
+
+extern void TRACE(const Int8 *fmt, ...);
+
+//#define LOG NBDLog 
+
+#define		DEBUG_VERSION
+//#define	RELEASE_VERSION
+
+#if defined	DEBUG_VERSION
+	#define LOG 	NBDLog
+#elif defined	RELEASE_VERSION
+	#define	LOG
+#else
+	#define	LOG 	
+#endif
+
+//#define	_ROCKEY
+
+
+#define		TRUE	1
+#define		FALSE	0
+
+//HTTP 请求方法
+#define		HTTP_GET		1
+#define		HTTP_POST		2
+
+//请求协议类型
+enum PROTOCALTYPE
+{
+		INIT_TYPE		=		0,
+		PC_LOGIN		=		1,	//pc登录
+		PC_PWDMODY	=		2,    //pc端密码修改
+		PC_USERACTIVY	=		3,  //PC端用户激活
+		PC_USERDELETE	=		4,  //PC端用户删除
+		PC_DIRUPDATE	=		5,   //PC端更新目录结构
+		PC_MONITORADD	=		6,   //PC端添加监控点
+		PC_LOGOUT		=		7,   //PC端注销退出
+
+		MB_LOGIN		=		8,   //手机客户端登录
+		MB_LOGOUT		=		9   //手机客户端退出
+};
+
+#define	SYSID_LENGTH  			16
+#define	KEY_LENGTH  			16
+#define 	MAC_LENGTH 			16
+#define 	USERNAME_LENGTH    	16
+#define 	PASSWD_LENGTH 		8
+
+#define TITLE_LENGTH 			128
+#define DESCRIBE_LENGTH 		256
+
+
+#define LINKCMD_BUSINESSAUTHREQ_V4	4000	//业务鉴权请求
+#define LINKCMD_AUTHSUCCESS_V4		4001	//鉴权成功
+#define LINKCMD_DATABASEINVALID_V4	4002	//数据库表打开失败
+#define LINKCMD_ACCOUNTINVALID_V4	4003	//无效的账号(该账号不存在或已过期)
+#define LINKCMD_IMEIBINDINVALID_V4	4004	//无效的绑定IMEI号
+
+
+#define	MAX_RECVIVE_LENGTH	(1024 * 80)
+#define	MAX_MEDIA_INFO_LEN	4096
+
+typedef struct tagPacketHead
+{
+	UInt16 	packet_size;		//包含头字节，即消息头＋消息体的总大小，单位：字节
+	UInt16	func_no;		//功能号  
+}PacketHead,*LPPacketHead;
+ 
+typedef struct tagSysIDInfo
+{	
+	char SysID[SYSID_LENGTH];
+ 	char Key[KEY_LENGTH];	
+ 	char MAC[MAC_LENGTH];
+ 	char User[USERNAME_LENGTH];
+	char Passwd[PASSWD_LENGTH];
+}SysIDInfo;
+
+typedef struct tagChannelsInfo
+{
+     	int ID;     	
+ 	char Title[TITLE_LENGTH];	
+ 	char Describe[DESCRIBE_LENGTH];
+ 	char Language[64];
+ 	char Country[64];
+ 	char LastUpdate[32];
+ 	char Status[16];
+ 	char Company[64];
+ 	char Class[16];
+ 	char Price[16];
+ 	char Addr[512];
+}ChannelsInfo;
+
+extern HANDLE g_DBClass;
+
+extern pthread_mutex_t	g_mutex_lock;
+
+#endif
+

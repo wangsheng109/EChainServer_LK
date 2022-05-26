@@ -1,0 +1,89 @@
+#ifndef GLOBAL_H
+#define	GLOBAL_H
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>
+#include "OSType.h"
+#include <time.h>
+#include "OSMutex.h"
+#include "json_object.h"
+
+#define HANDLE void*
+
+#define VERSION	"XChainServerV1.0"
+
+extern void BLOG(const Int8 *fmt, ...);
+
+extern void version();
+
+extern int CheckLogFileName();
+
+//#define LOG BLOG 
+
+#define		DEBUG_VERSION
+//#define	RELEASE_VERSION
+
+#if defined	DEBUG_VERSION
+	#define LOG 	BLOG
+#elif defined	RELEASE_VERSION
+	#define	LOG
+#else
+	#define	LOG 	
+#endif
+
+
+#define		TRUE	1
+#define		FALSE	0
+
+//HTTP 请求方法
+#define		HTTP_GET		1
+#define		HTTP_POST		2
+
+//请求协议类型
+enum PROTOCALTYPE
+{
+		//
+		INITHTTPTYPE				=		0,
+		CLIENTREGISTER				=		1,	//客户注册
+		CLIENTCERTIFICATION 		=		2, 	//企业实名认证
+		CREDITDECLARATION			=		3,	//企业授信额度申报
+		QUERYDECLARATIONINFO    	=		4,	//查询企业授信资料
+		TOKENDIGITIZATION			=		5,   //资产数字化通证发行
+		TOKENTRANSACTION			=		6,   //通证交易支付
+		FINANCEAPPLICATION			=		7,	 //通证融资申请
+		QUERYFINANCEAUTHORIZATION	=		8,	 //通证融资资料查询
+		TOKENSETTLEMENT				=		9,	 //通证还款
+		CREDITRECORDMARK			=		10,	 //信用征信评分
+		QUERYCREDITRECORD			=		11,	 //信用征信记录查询
+		QUERYCLIENTOPENINFO			=		12,	 //企业展示信息查询
+		QUERYBLOCKBROWSER			=		13,	 //区块浏览器查询
+		QUERYBLOCKHEIGHT			=		14,	 //区块最新信息查询
+		QUERYTRANSRECORD			=		15,	 //区块交易记录查询
+		QUERYCONDITIONTRANSRECORD   =		16,  //区块交易记录条件查询
+		ISSUEASSET					=		17	 //发行资产
+};
+
+
+#define   MAX_DEVID_LEN  		64
+#define   MAX_DEVIP_LEN  		16
+
+
+#define   MAX_ENCRYKEY_LEN  	64
+#define   MAX_ADDRESS_LEN  	128
+
+#define   MAX_CLIENTID_LEN  	32
+#define   MAX_CLIENTNAME_LEN  	256
+
+
+#define	MAX_RECVIVE_LENGTH	(1024 * 80)
+#define	MAX_SEND_LENGTH	(1024 * 100)
+
+
+
+extern int GetLocalIP(char *v_LocalIP);
+
+#endif
+

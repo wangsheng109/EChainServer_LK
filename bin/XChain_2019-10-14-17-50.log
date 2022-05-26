@@ -1,0 +1,63 @@
+Mon Oct 14 17:50:35 2019 connect database success!
+Mon Oct 14 17:50:35 2019 XChain_InitSDK success, the genesis addr is a001ddf0081d7af582b6e2d9e15439ef5125b843a821ba, the genesis nonce is 595!
+Mon Oct 14 18:11:10 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:11:10 2019 Invalid Protocal type in ParseHttpReqParamInfo!
+Mon Oct 14 18:11:10 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:11:10 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:11:11 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:11:11 2019 Invalid Protocal type in ParseHttpReqParamInfo!
+Mon Oct 14 18:11:11 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:11:11 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:11:16 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:11:16 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 18:11:17 2019 ===========CreateClient, Cur User Num is 3
+Mon Oct 14 18:11:17 2019 /QueryCheckAccount.do?orderID=1000000000000 HTTP/1.1!
+Mon Oct 14 18:11:17 2019 Can't find Content_Length in http request head!
+Mon Oct 14 18:11:17 2019 Client CheckAccount request, szOrderID = 1000000000000!
+Mon Oct 14 18:11:17 2019 Client CheckAccount request, szResBuf = {"result":"success"}!
+Mon Oct 14 18:11:17 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 10:11:17 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 20
+
+{"result":"success"}!
+Mon Oct 14 18:11:17 2019 DestroyClient, Cur User Num is 2
+Mon Oct 14 18:11:17 2019 ===========CreateClient, Cur User Num is 3
+Mon Oct 14 18:11:17 2019 Invalid Protocal type in ParseHttpReqParamInfo!
+Mon Oct 14 18:11:17 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:11:17 2019 DestroyClient, Cur User Num is 2
+Mon Oct 14 18:11:26 2019 Client_SessionID 3 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:11:26 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 18:11:26 2019 Client_SessionID 4 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:11:26 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:11:31 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:11:31 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 18:11:31 2019 ===========CreateClient, Cur User Num is 3
+Mon Oct 14 18:11:31 2019 ===========CreateClient, Cur User Num is 4
+Mon Oct 14 18:11:31 2019 /QueryCheckAccount.do?orderID=1000000000000 HTTP/1.1!
+Mon Oct 14 18:11:31 2019 Can't find Content_Length in http request head!
+Mon Oct 14 18:11:31 2019 Client CheckAccount request, szOrderID = 1000000000000!
+Mon Oct 14 18:11:31 2019 Client CheckAccount request, szResBuf = {"result":"success"}!
+Mon Oct 14 18:11:31 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 10:11:31 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 20
+
+{"result":"success"}!
+Mon Oct 14 18:11:31 2019 DestroyClient, Cur User Num is 3
+Mon Oct 14 18:12:19 2019 Client_SessionID 7 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:12:19 2019 DestroyClient, Cur User Num is 2
+Mon Oct 14 18:12:19 2019 Client_SessionID 8 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:12:19 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 18:13:16 2019 Client_SessionID 9 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:13:16 2019 DestroyClient, Cur User Num is 0

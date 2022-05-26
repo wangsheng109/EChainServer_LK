@@ -1,0 +1,685 @@
+Mon Oct 14 18:14:30 2019 connect database success!
+Mon Oct 14 18:14:30 2019 XChain_InitSDK success, the genesis addr is a001ddf0081d7af582b6e2d9e15439ef5125b843a821ba, the genesis nonce is 595!
+Mon Oct 14 18:14:45 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:14:45 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 18:14:45 2019 ===========CreateClient, Cur User Num is 3
+Mon Oct 14 18:14:45 2019 /QueryCheckAccount.do?orderID=1000000000000 HTTP/1.1!
+Mon Oct 14 18:14:45 2019 ===========CreateClient, Cur User Num is 4
+Mon Oct 14 18:14:45 2019 Can't find Content_Length in http request head!
+Mon Oct 14 18:14:45 2019 Client CheckAccount request, szOrderID = 1000000000000!
+Mon Oct 14 18:14:45 2019 XChain_QueryOrderIDCheckAccountInfo failed!
+Mon Oct 14 18:14:45 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 10:14:45 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 19
+
+{"result":"failed"}!
+Mon Oct 14 18:14:45 2019 DestroyClient, Cur User Num is 3
+Mon Oct 14 18:15:12 2019 Client_SessionID 2 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:15:12 2019 DestroyClient, Cur User Num is 2
+Mon Oct 14 18:15:12 2019 Client_SessionID 1 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:15:12 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 18:15:12 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 18:15:12 2019 ===========CreateClient, Cur User Num is 3
+Mon Oct 14 18:15:12 2019 /QueryCheckAccount.do?orderID=335642783567400960 HTTP/1.1!
+Mon Oct 14 18:15:12 2019 Can't find Content_Length in http request head!
+Mon Oct 14 18:15:12 2019 Client CheckAccount request, szOrderID = 335642783567400960!
+Mon Oct 14 18:15:12 2019 Client CheckAccount request, szResBuf = {"result":"success"}!
+Mon Oct 14 18:15:12 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 10:15:12 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 20
+
+{"result":"success"}!
+Mon Oct 14 18:15:12 2019 DestroyClient, Cur User Num is 2
+Mon Oct 14 18:15:12 2019 ===========CreateClient, Cur User Num is 3
+Mon Oct 14 18:15:12 2019 Invalid Protocal type in ParseHttpReqParamInfo!
+Mon Oct 14 18:15:12 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:15:12 2019 DestroyClient, Cur User Num is 2
+Mon Oct 14 18:15:22 2019 Client_SessionID 5 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:15:22 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 18:15:22 2019 Client_SessionID 6 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:15:22 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:46:02 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:46:02 2019 Invalid Protocal type in ParseHttpReqParamInfo!
+Mon Oct 14 18:46:02 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:46:02 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:48:56 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:48:56 2019 Invalid Protocal type in ParseHttpReqParamInfo!
+Mon Oct 14 18:48:56 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:48:56 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:56:48 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:56:48 2019 Invalid Protocal type in ParseHttpReqParamInfo!
+Mon Oct 14 18:56:48 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:56:48 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:56:53 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:56:57 2019 Invalid Request Head in ParseHttpReqParamInfo!
+Mon Oct 14 18:56:57 2019 ParseHttpReqParamInfo failed!
+Mon Oct 14 18:56:57 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:56:58 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:57:04 2019 Client_SessionID 12 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:57:04 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 18:57:05 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 18:57:09 2019 Client_SessionID 13 recv data from socket error in Client_SessionID, error = 0, exit info is Success!
+Mon Oct 14 18:57:09 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 19:07:41 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 19:07:41 2019 /QueryTransRecord.do?clientID=343272827328483328&blockAddress=a001e02bd7c08650d491b6caf67f8711dcc9424467cf0f HTTP/1.1!
+Mon Oct 14 19:07:41 2019 Can't find Content_Length in http request head!
+Mon Oct 14 19:07:41 2019 Can't find the encryFlag info from ParseQueryTransRecordInfo!
+Mon Oct 14 19:07:41 2019 Client QueryTransRecordInfo request, clientID = 343272827328483328, blockAddress = a001e02bd7c08650d491b6caf67f8711dcc9424467cf0f!
+Mon Oct 14 19:07:42 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 11:07:42 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 108
+
+{
+   "blockAddress" : "a001e02bd7c08650d491b6caf67f8711dcc9424467cf0f",
+   "list" : null,
+   "result" : 1
+}
+!
+Mon Oct 14 19:07:42 2019 DestroyClient, Cur User Num is 0
+Mon Oct 14 19:15:00 2019 ===========CreateClient, Cur User Num is 1
+Mon Oct 14 19:33:19 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 19:33:19 2019 /TokenTransaction.do?destClientID=337813613520257024&orderID=343686255204794368&srcClientID=337813400168595456&tokenAmount=1000&tokenName=XT_337813400168595456 HTTP/1.1!
+Mon Oct 14 19:33:19 2019 Can't find the encryFlag info from ParseTokenTransactionInfo!
+Mon Oct 14 19:33:19 2019 TokenTransaction request, ContentBuf = {"appId":"337813400118263808","contractNo":"1123434","coreCompanyId":"337813400168595456","coreEnterpriseUserId":"337813400118263808","currentUserId":"337813400118263808","currentUserName":"G26010766","description":"","expireDate":"2019-10-16","fileUpLoadInfoList":[{"contentMd5":"e25b18c3d53e4d5b7ba3f5d249f5d6f1","fileExt":"docx","id":"450aa0eaf78744248d8924d31c55df19","newFileName":"343686254709866496.docx","oldName":"象右看齐供应链金融系统API v1.6.docx","servicesUrl":"d:\\docx\\343686254709866496.docx","size":"112104","url":"\\d:\\docx\\343686254709866496.docx"}],"fundAmount":"1000","invoiceDate":"2019-10-06","opSource":"1","providerUserId":"337813613511868416","version":"0"}!
+Mon Oct 14 19:33:19 2019 getAccount response is 
+{
+   "error_code" : 0,
+   "result" : {
+      "address" : "a001239105ff64c7a720a14116ef0e477897311d496b07",
+      "assets" : [
+         {
+            "amount" : 93600,
+            "property" : {
+               "code" : "XT_337813400168595456",
+               "issuer" : "a001239105ff64c7a720a14116ef0e477897311d496b07"
+            }
+         }
+      ],
+      "assets_hash" : "814d751f58959ea5e57e4eee3f337b5e2046d695a23cd3b505d2ad4ba4dd7dd2",
+      "contract" : null,
+      "metadatas" : [
+         {
+            "key" : "HELLO",
+            "value" : "XChain",
+            "version" : 1
+         }
+      ],
+      "metadatas_hash" : "5a99285e433edbe2843f2319d2337857d33822251d5da3e3b7c0e9c67b4fa992",
+      "nonce" : 5,
+      "priv" : {
+         "master_weight" : 10,
+         "thresholds" : {
+            "tx_threshold" : 7
+         }
+      }
+   }
+}
+Mon Oct 14 19:33:19 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 11:33:19 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 95
+
+{"transferHash":"bea54b8844650021df3c8e2a6314ff943419efa49475e257c3e0c2bb44256bfa", "result":1}!
+Mon Oct 14 19:33:19 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 19:53:05 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 19:53:05 2019 /FinanceApplication.do?clientID=337813613520257024&tokenName=XT_337813400168595456&tokenAmount=100 HTTP/1.1!
+Mon Oct 14 19:53:05 2019 Can't find the encryFlag info from ParseFinanceApplicationInfo!
+Mon Oct 14 19:53:05 2019 FinanceApplication request, ContentBuf = {"appId":"337813613511868416","contractUpLoadInfoList":[{"contentMd5":"7aae6ee5cf3c776b04adccaceb72e8e0","fileExt":"jpg","id":"9934db3b2870493cb3aa2beedf3ae171","newFileName":"343691229687087104.jpg","oldName":"t010eed8a6ad9ee124f.webp.jpg","servicesUrl":"d:\\jpg\\343691229687087104.jpg","size":"28201","url":"\\d:\\jpg\\343691229687087104.jpg"}],"currentUserId":"337813613511868416","currentUserName":"G26519588","factorType":"0","financePeriod":1,"fundAccountId":"343686255108325376","fundAmount":"100","invoiceNumber":"33333","invoiceUpLoadInfoList":[{"contentMd5":"bf1df196daa91c72bf2e647e3cc47395","fileExt":"jpg","id":"99848988ad0444f5917413492fbeb1d5","newFileName":"343691229670309888.jpg","oldName":"t01ed9f22a198d4260f.webp.jpg","servicesUrl":"d:\\jpg\\343691229670309888.jpg","size":"23855","url":"\\d:\\jpg\\343691229670309888.jpg"}],"name":0,"opSource":"1","orderDesc":"asdfasf","orderName":"sadfasfd111","otherUpLoadInfoList":[{"contentMd5":"1c4cffa6217cb4ae1abd1ee7f055b1a6","fileExt":"jpg","id":"c33c3d56162949ff9bbe655a0789b76d","newFileName":"343691229695475712.jpg","oldName":"t014e74967f0fae4111.webp.jpg","servicesUrl":"d:\\jpg\\343691229695475712.jpg","size":"25512","url":"\\d:\\jpg\\343691229695475712.jpg"}],"providerCompanyId":"337813613520257024","version":"0"}!
+Mon Oct 14 19:53:05 2019 getAccount response is 
+{
+   "error_code" : 0,
+   "result" : {
+      "address" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+      "assets" : [
+         {
+            "amount" : 7000,
+            "property" : {
+               "code" : "XT_337813400168595456",
+               "issuer" : "a001239105ff64c7a720a14116ef0e477897311d496b07"
+            }
+         }
+      ],
+      "assets_hash" : "4e3519e99efe4f3d70cadb7b0e805f0333a44e7ce8fef6760817d4bf7ce00cee",
+      "contract" : null,
+      "metadatas" : [
+         {
+            "key" : "HELLO",
+            "value" : "XChain",
+            "version" : 1
+         }
+      ],
+      "metadatas_hash" : "5a99285e433edbe2843f2319d2337857d33822251d5da3e3b7c0e9c67b4fa992",
+      "nonce" : 18,
+      "priv" : {
+         "master_weight" : 10,
+         "thresholds" : {
+            "tx_threshold" : 7
+         }
+      }
+   }
+}
+Mon Oct 14 19:53:05 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 11:53:05 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 95
+
+{"transferHash":"e12f787fa06f99b7509f4bacd9a1cf4d0880fe2d1db37aabe61bf175ed234845", "result":1}!
+Mon Oct 14 19:53:05 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 19:55:16 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 19:55:16 2019 /TokenTransaction.do?destClientID=337813736673411072&orderID=343691229817110528&srcClientID=337813613520257024&tokenAmount=100.00&tokenName=XT_337813400168595456 HTTP/1.1!
+Mon Oct 14 19:55:16 2019 Can't find the encryFlag info from ParseTokenTransactionInfo!
+Mon Oct 14 19:55:16 2019 TokenTransaction request, ContentBuf = {"appId":"337813613511868416","businessOrderId":"343691229817110528","currentUserId":"337813613511868416","currentUserName":"G26519588","loanId":"343691741392175104","loanStatus":"1","opSource":"1","opinion":"asfsadf","roleId":"2","version":"0"}!
+Mon Oct 14 19:55:16 2019 getAccount response is 
+{
+   "error_code" : 0,
+   "result" : {
+      "address" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+      "assets" : [
+         {
+            "amount" : 7000,
+            "property" : {
+               "code" : "XT_337813400168595456",
+               "issuer" : "a001239105ff64c7a720a14116ef0e477897311d496b07"
+            }
+         }
+      ],
+      "assets_hash" : "4e3519e99efe4f3d70cadb7b0e805f0333a44e7ce8fef6760817d4bf7ce00cee",
+      "contract" : null,
+      "metadatas" : [
+         {
+            "key" : "HELLO",
+            "value" : "XChain",
+            "version" : 1
+         }
+      ],
+      "metadatas_hash" : "5a99285e433edbe2843f2319d2337857d33822251d5da3e3b7c0e9c67b4fa992",
+      "nonce" : 19,
+      "priv" : {
+         "master_weight" : 10,
+         "thresholds" : {
+            "tx_threshold" : 7
+         }
+      }
+   }
+}
+Mon Oct 14 19:55:16 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 11:55:16 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 95
+
+{"transferHash":"db29e6e8bc064a7fde9fd1120e0c2944ad0a35dee2f2b379da177a58a038672b", "result":1}!
+Mon Oct 14 19:55:16 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 19:56:57 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 19:56:57 2019 /TokenSettlement.do?coreClientID=337813400168595456&orderID=343692129684062208&payID=343692129684062208&tokenName=XT_337813400168595456&providerClientID=337813613520257024&providerAmount=900.00&factorClientID=337813736673411072&factorAmount=100.00 HTTP/1.1!
+Mon Oct 14 19:56:57 2019 Can't find the encryFlag info from ParseTokenSettlementInfo!
+Mon Oct 14 19:56:57 2019 TokenSettlement request, ContentBuf = {"currentUserId":"337813736665022464","currentUserName":"B26813193","opSource":"1","overdueAmount":"0.00","paidAmount":"1000.00","repaymentId":"343686256337256448","repaymentRecordId":"343692129684062208","repaymentUserId":"337813400118263808","roleId":"4","version":"0","voucherNo":"ZK343686255053799424"}!
+Mon Oct 14 19:56:57 2019 getAccount response is 
+{
+   "error_code" : 0,
+   "result" : {
+      "address" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+      "assets" : [
+         {
+            "amount" : 6900,
+            "property" : {
+               "code" : "XT_337813400168595456",
+               "issuer" : "a001239105ff64c7a720a14116ef0e477897311d496b07"
+            }
+         }
+      ],
+      "assets_hash" : "f1112cc1b5bf7f859ffcd84a5bd4b4be2b101bba7bca499de85e5e65398142d4",
+      "contract" : null,
+      "metadatas" : [
+         {
+            "key" : "HELLO",
+            "value" : "XChain",
+            "version" : 1
+         }
+      ],
+      "metadatas_hash" : "5a99285e433edbe2843f2319d2337857d33822251d5da3e3b7c0e9c67b4fa992",
+      "nonce" : 20,
+      "priv" : {
+         "master_weight" : 10,
+         "thresholds" : {
+            "tx_threshold" : 7
+         }
+      }
+   }
+}
+Mon Oct 14 19:56:57 2019 checkRepeatOrderIDFromTokenTransactionDB failed!
+Mon Oct 14 19:56:57 2019 XChain_TokenTransaction failed, fundingID = 337813736673411072, fundingAmount = 100!
+Mon Oct 14 19:56:57 2019 XChain_TokenSettlement failed, v_contentBuf is {"currentUserId":"337813736665022464","currentUserName":"B26813193","opSource":"1","overdueAmount":"0.00","paidAmount":"1000.00","repaymentId":"343686256337256448","repaymentRecordId":"343692129684062208","repaymentUserId":"337813400118263808","roleId":"4","version":"0","voucherNo":"ZK343686255053799424"}!
+Mon Oct 14 19:56:57 2019 m_SendBuf = HTTP/1.1 200 Bad Request
+Date: Mon, Oct 14 2019 11:56:57 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 34
+
+{"transferHash":null, "result":-4}
+Mon Oct 14 19:56:57 2019 v_senddata = HTTP/1.1 200 Bad Request
+Date: Mon, Oct 14 2019 11:56:57 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 34
+
+{"transferHash":null, "result":-4}!
+Mon Oct 14 19:56:57 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:14:11 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:14:11 2019 /QueryTransRecord.do?clientID=337813613520257024&blockAddress=a0011f3847562008508c2104603ac9ec6d6c693cd59d7f HTTP/1.1!
+Mon Oct 14 20:14:11 2019 Can't find Content_Length in http request head!
+Mon Oct 14 20:14:11 2019 Can't find the encryFlag info from ParseQueryTransRecordInfo!
+Mon Oct 14 20:14:11 2019 Client QueryTransRecordInfo request, clientID = 337813613520257024, blockAddress = a0011f3847562008508c2104603ac9ec6d6c693cd59d7f!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813400168595456' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813736673411072' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813400168595456' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813736673411072' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813736673411072' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 SQLCmd is select clientname from client_certification where clientid='337813736673411072' order by createtime desc limit 1;!
+Mon Oct 14 20:14:11 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:11 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 12:14:11 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 3753
+
+{
+   "blockAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+   "list" : [
+      {
+         "destAddress" : "a001239105ff64c7a720a14116ef0e477897311d496b07",
+         "destClientID" : "337813400168595456",
+         "destClientName" : "",
+         "orderID" : "343692129684062208",
+         "srcAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+         "srcClientID" : "337813613520257024",
+         "srcClientName" : "",
+         "tokenAmount" : 900,
+         "tokenName" : "XT_337813400168595456",
+         "txHash" : "dbcdc011ab6efaaec550f417c60d4c229684472a121356e24220cc2fff044350",
+         "txTime" : "2019-10-14 19:56:57",
+         "txType" : "payments"
+      },
+      {
+         "destAddress" : "a001fe555fd717d134e78f05a0e7aa9b57471315c6201c",
+         "destClientID" : "337813736673411072",
+         "destClientName" : "",
+         "orderID" : "343691229817110528",
+         "srcAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+         "srcClientID" : "337813613520257024",
+         "srcClientName" : "",
+         "tokenAmount" : 100,
+         "tokenName" : "XT_337813400168595456",
+         "txHash" : "db29e6e8bc064a7fde9fd1120e0c2944ad0a35dee2f2b379da177a58a038672b",
+         "txTime" : "2019-10-14 19:55:16",
+         "txType" : "payments"
+      },
+      {
+         "destAddress" : "a001239105ff64c7a720a14116ef0e477897311d496b07",
+         "destClientID" : "337813400168595456",
+         "destClientName" : "",
+         "orderID" : "343650195615678464",
+         "srcAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+         "srcClientID" : "337813613520257024",
+         "srcClientName" : "",
+         "tokenAmount" : 3600,
+         "tokenName" : "XT_337813400168595456",
+         "txHash" : "970ed13677ecb6ee151dc663c3d97b77f1bf337760bfb4cb643cecbed65914ab",
+         "txTime" : "2019-10-14 17:20:40",
+         "txType" : "payments"
+      },
+      {
+         "destAddress" : "a001fe555fd717d134e78f05a0e7aa9b57471315c6201c",
+         "destClientID" : "337813736673411072",
+         "destClientName" : "",
+         "orderID" : "343624085595127808",
+         "srcAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+         "srcClientID" : "337813613520257024",
+         "srcClientName" : "",
+         "tokenAmount" : 300,
+         "tokenName" : "XT_337813400168595456",
+         "txHash" : "ea1a8d246022033ee8ba7562b6b4d1a3f93914cc8828acc4b1fa450ec2bf658f",
+         "txTime" : "2019-10-14 17:02:02",
+         "txType" : "payments"
+      },
+      {
+         "destAddress" : "a001fe555fd717d134e78f05a0e7aa9b57471315c6201c",
+         "destClientID" : "337813736673411072",
+         "destClientName" : "",
+         "orderID" : "343543093761048576",
+         "srcAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+         "srcClientID" : "337813613520257024",
+         "srcClientName" : "",
+         "tokenAmount" : 100,
+         "tokenName" : "XT_337813400168595456",
+         "txHash" : "15545958d9f45c365524b370537f03afb42ebf64af64adee17693047de045893",
+         "txTime" : "2019-10-14 11:57:34",
+         "txType" : "payments"
+      },
+      {
+         "destAddress" : "a001fe555fd717d134e78f05a0e7aa9b57471315c6201c",
+         "destClientID" : "337813736673411072",
+         "destClientName" : "",
+         "orderID" : "337815376465920000",
+         "srcAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+         "srcClientID" : "337813613520257024",
+         "srcClientName" : "",
+         "tokenAmount" : 1000,
+         "tokenName" : "XT_337813400168595456",
+         "txHash" : "584ecc66cdb799349306e7540def824447095fa92d07068452e1b664a351e8bf",
+         "txTime" : "2019-09-28 14:46:33",
+         "txType" : "payments"
+      }
+   ],
+   "result" : 1
+}
+!
+Mon Oct 14 20:14:11 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:14:13 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:14:13 2019 /QueryClientOpenInfo.do?clientID=337813613520257024&clientType=2 HTTP/1.1!
+Mon Oct 14 20:14:13 2019 Can't find Content_Length in http request head!
+Mon Oct 14 20:14:13 2019 Can't find the encryFlag info from ParseClientOpenInfo!
+Mon Oct 14 20:14:13 2019 QueryClientOpenInfo request, clientID = 337813613520257024, clientType = 2!
+Mon Oct 14 20:14:13 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:14:13 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:14:13 2019 TokenName = XT_337813400168595456, TokenAmount = 12000!
+Mon Oct 14 20:14:13 2019 iItems = 1, iCounts = 1!
+Mon Oct 14 20:14:13 2019 getIssuerNameFromTokenName failed, TokenName is XT_337813400168595456
+!Mon Oct 14 20:14:13 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 12:14:13 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 383
+
+{
+   "blockAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+   "clientID" : "337813613520257024",
+   "clientName" : "",
+   "creditScore" : 0,
+   "list" : [
+      {
+         "issuerName" : " ",
+         "tokenAmount" : 12000,
+         "tokenBalance" : 6000,
+         "tokenName" : "XT_337813400168595456"
+      }
+   ],
+   "totalAmount" : 12000,
+   "totalBalance" : 6000
+}
+!
+Mon Oct 14 20:14:13 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:15:19 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:15:19 2019 /QueryClientOpenInfo.do?clientID=337813613520257024&clientType=2 HTTP/1.1!
+Mon Oct 14 20:15:19 2019 Can't find Content_Length in http request head!
+Mon Oct 14 20:15:19 2019 Can't find the encryFlag info from ParseClientOpenInfo!
+Mon Oct 14 20:15:19 2019 QueryClientOpenInfo request, clientID = 337813613520257024, clientType = 2!
+Mon Oct 14 20:15:19 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:15:19 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:15:19 2019 TokenName = XT_337813400168595456, TokenAmount = 12000!
+Mon Oct 14 20:15:19 2019 iItems = 1, iCounts = 1!
+Mon Oct 14 20:15:19 2019 getIssuerNameFromTokenName failed, TokenName is XT_337813400168595456
+!Mon Oct 14 20:15:19 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 12:15:19 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 383
+
+{
+   "blockAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+   "clientID" : "337813613520257024",
+   "clientName" : "",
+   "creditScore" : 0,
+   "list" : [
+      {
+         "issuerName" : " ",
+         "tokenAmount" : 12000,
+         "tokenBalance" : 6000,
+         "tokenName" : "XT_337813400168595456"
+      }
+   ],
+   "totalAmount" : 12000,
+   "totalBalance" : 6000
+}
+!
+Mon Oct 14 20:15:19 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:17:09 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:17:09 2019 /QueryClientOpenInfo.do?clientID=337813736673411072&clientType=4 HTTP/1.1!
+Mon Oct 14 20:17:09 2019 Can't find Content_Length in http request head!
+Mon Oct 14 20:17:09 2019 Can't find the encryFlag info from ParseClientOpenInfo!
+Mon Oct 14 20:17:09 2019 QueryClientOpenInfo request, clientID = 337813736673411072, clientType = 4!
+Mon Oct 14 20:17:09 2019 SQLCmd is select clientname from client_certification where clientid='337813736673411072' order by createtime desc limit 1;!
+Mon Oct 14 20:17:09 2019 getClientNameFromCertificationDB failed!
+Mon Oct 14 20:17:09 2019 TokenName = XT_337813400168595456, TokenAmount = 1500!
+Mon Oct 14 20:17:09 2019 iItems = 1, iCounts = 1!
+Mon Oct 14 20:17:09 2019 getIssuerNameFromTokenName failed, TokenName is XT_337813400168595456
+!Mon Oct 14 20:17:09 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 12:17:09 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 379
+
+{
+   "blockAddress" : "a001fe555fd717d134e78f05a0e7aa9b57471315c6201c",
+   "clientID" : "337813736673411072",
+   "clientName" : "",
+   "creditScore" : 0,
+   "list" : [
+      {
+         "issuerName" : " ",
+         "tokenAmount" : 1500,
+         "tokenBalance" : 500,
+         "tokenName" : "XT_337813400168595456"
+      }
+   ],
+   "totalAmount" : 1500,
+   "totalBalance" : 500
+}
+!
+Mon Oct 14 20:17:09 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:17:51 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:17:51 2019 /ClientCertification.do?clientID=337813613520257024&clientName=%E5%90%B8%E6%94%B6%E8%B4%A6%E6%AC%BE%E7%9A%84%E4%BC%81%E4%B8%9A HTTP/1.1!
+Mon Oct 14 20:17:51 2019 Can't find the encryFlag info from ParseClientCertificationInfo!
+Mon Oct 14 20:17:51 2019 Client Certification request, ContentBuf = {"bankCardNo":"6225887820003305","bankCityId":"371600","bankCountyId":"371621","bankName":"中国分行","bankProvinceId":"370000","blockAddress":"a0011f3847562008508c2104603ac9ec6d6c693cd59d7f","cashFlow":0.00,"code":"000001","companyName":"吸收账款的企业","contactMobile":"13012345679","corpCertStatus":"1","createTime":"2019-09-28 14:37:31","description":"不好意思，出错了，请联系管理员！","id":"337813613520257024","netWorth":0.00,"registeredCapital":0.00,"status":"0","tripleSyndrome":"0","updateTime":"2019-09-28 14:37:31","userId":"337813613511868416"}!
+Mon Oct 14 20:17:51 2019 getTransactionBlob response is 
+{
+   "error_code" : 0,
+   "error_desc" : "",
+   "result" : {
+      "hash" : "716b05f95abbd41d0157ea3a8b2a5ec332c41df7addacad57b3c4fbe6da4dc64",
+      "transaction_blob" : "0a2e613030313166333834373536323030383530386332313034363033616339656336643663363933636435396437661016227208033a6e0a2e61303031646466303038316437616635383262366532643965313534333965663531323562383433613832316261123c0a380a2e61303031646466303038316437616635383262366532643965313534333965663531323562383433613832316261120658546f6b656e10012ac6047b2262616e6b436172644e6f223a2236323235383837383230303033333035222c2262616e6b436974794964223a22333731363030222c2262616e6b436f756e74794964223a22333731363231222c2262616e6b4e616d65223a22e4b8ade59bbde58886e8a18c222c2262616e6b50726f76696e63654964223a22333730303030222c22626c6f636b41646472657373223a2261303031316633383437353632303038353038633231303436303361633965633664366336393363643539643766222c2263617368466c6f77223a302e30302c22636f6465223a22303030303031222c22636f6d70616e794e616d65223a22e590b8e694b6e8b4a6e6acbee79a84e4bc81e4b89a222c22636f6e746163744d6f62696c65223a223133303132333435363739222c22636f727043657274537461747573223a2231222c2263726561746554696d65223a22323031392d30392d32382031343a33373a3331222c226465736372697074696f6e223a22e4b88de5a5bde6848fe6809defbc8ce587bae99499e4ba86efbc8ce8afb7e88194e7b3bbe7aea1e79086e59198efbc81222c226964223a22333337383133363133353230323537303234222c226e6574576f727468223a302e30302c22726567697374657265644361706974616c223a302e30302c22737461747573223a2230222c22747269706c6553796e64726f6d65223a2230222c2275706461746554696d65223a22323031392d30392d32382031343a33373a3331222c22757365724964223a22333337383133363133353131383638343136227d"
+   }
+}
+Mon Oct 14 20:17:51 2019 XChain_TransferPayment submitTransaction response is 
+{
+   "results" : [
+      {
+         "error_code" : 0,
+         "error_desc" : "",
+         "hash" : "716b05f95abbd41d0157ea3a8b2a5ec332c41df7addacad57b3c4fbe6da4dc64"
+      }
+   ],
+   "success_count" : 1
+}
+Mon Oct 14 20:17:51 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 12:17:51 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 95
+
+{"transferHash":"716b05f95abbd41d0157ea3a8b2a5ec332c41df7addacad57b3c4fbe6da4dc64", "result":1}!
+Mon Oct 14 20:17:51 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:18:26 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:18:26 2019 /QueryClientOpenInfo.do?clientID=337813613520257024&clientType=2 HTTP/1.1!
+Mon Oct 14 20:18:26 2019 Can't find Content_Length in http request head!
+Mon Oct 14 20:18:26 2019 Can't find the encryFlag info from ParseClientOpenInfo!
+Mon Oct 14 20:18:26 2019 QueryClientOpenInfo request, clientID = 337813613520257024, clientType = 2!
+Mon Oct 14 20:18:26 2019 SQLCmd is select clientname from client_certification where clientid='337813613520257024' order by createtime desc limit 1;!
+Mon Oct 14 20:18:26 2019 TokenName = XT_337813400168595456, TokenAmount = 12000!
+Mon Oct 14 20:18:26 2019 iItems = 1, iCounts = 1!
+Mon Oct 14 20:18:26 2019 getIssuerNameFromTokenName failed, TokenName is XT_337813400168595456
+!Mon Oct 14 20:18:26 2019 v_senddata = HTTP/1.1 200 OK
+Date: Mon, Oct 14 2019 12:18:26 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 404
+
+{
+   "blockAddress" : "a0011f3847562008508c2104603ac9ec6d6c693cd59d7f",
+   "clientID" : "337813613520257024",
+   "clientName" : "吸收账款的企业",
+   "creditScore" : 0,
+   "list" : [
+      {
+         "issuerName" : " ",
+         "tokenAmount" : 12000,
+         "tokenBalance" : 6000,
+         "tokenName" : "XT_337813400168595456"
+      }
+   ],
+   "totalAmount" : 12000,
+   "totalBalance" : 6000
+}
+!
+Mon Oct 14 20:18:26 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:54:42 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:54:42 2019 /QueryTransRecord.do?clientID=28606272391959756812&blockAddress=null HTTP/1.1!
+Mon Oct 14 20:54:42 2019 Can't find Content_Length in http request head!
+Mon Oct 14 20:54:42 2019 Can't find the encryFlag info from ParseQueryTransRecordInfo!
+Mon Oct 14 20:54:42 2019 Client QueryTransRecordInfo request, clientID = 28606272391959756812, blockAddress = null!
+Mon Oct 14 20:54:42 2019 The clientid 28606272391959756812 blockAddress is a001b6f17b34f10582a3dfc2494f214951fc2da0bd4572, No permission to query address null!
+Mon Oct 14 20:54:42 2019 XChain_QueryTransactionRecord failed, v_contentBuf is !
+Mon Oct 14 20:54:42 2019 m_SendBuf = HTTP/1.1 200 Bad Request
+Date: Mon, Oct 14 2019 12:54:42 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 47
+
+{"blockAddress":null, "list":null, "result":-3}
+Mon Oct 14 20:54:42 2019 v_senddata = HTTP/1.1 200 Bad Request
+Date: Mon, Oct 14 2019 12:54:42 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 47
+
+{"blockAddress":null, "list":null, "result":-3}!
+Mon Oct 14 20:54:42 2019 DestroyClient, Cur User Num is 1
+Mon Oct 14 20:55:11 2019 ===========CreateClient, Cur User Num is 2
+Mon Oct 14 20:55:11 2019 /QueryTransRecord.do?clientID=28606272391959756812&blockAddress=null HTTP/1.1!
+Mon Oct 14 20:55:11 2019 Can't find Content_Length in http request head!
+Mon Oct 14 20:55:11 2019 Can't find the encryFlag info from ParseQueryTransRecordInfo!
+Mon Oct 14 20:55:11 2019 Client QueryTransRecordInfo request, clientID = 28606272391959756812, blockAddress = null!
+Mon Oct 14 20:55:11 2019 The clientid 28606272391959756812 blockAddress is a001b6f17b34f10582a3dfc2494f214951fc2da0bd4572, No permission to query address null!
+Mon Oct 14 20:55:11 2019 XChain_QueryTransactionRecord failed, v_contentBuf is !
+Mon Oct 14 20:55:11 2019 m_SendBuf = HTTP/1.1 200 Bad Request
+Date: Mon, Oct 14 2019 12:55:11 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 47
+
+{"blockAddress":null, "list":null, "result":-3}
+Mon Oct 14 20:55:11 2019 v_senddata = HTTP/1.1 200 Bad Request
+Date: Mon, Oct 14 2019 12:55:11 GMT
+Accept: */*
+Accept-Language: zh-cn
+Cache-Control: no-cache
+Access-Control-Allow-Origin:*
+Connection: Keep-Alive
+Content-Type: text/xml;charset=utf-8
+Content-Length: 47
+
+{"blockAddress":null, "list":null, "result":-3}!
+Mon Oct 14 20:55:11 2019 DestroyClient, Cur User Num is 1

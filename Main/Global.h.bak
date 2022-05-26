@@ -1,0 +1,109 @@
+#ifndef GLOBAL_H
+#define	GLOBAL_H
+
+#include	<stdio.h>
+#include	<stdlib.h>
+#include <unistd.h>
+#include <errno.h>
+#include <string.h>
+#include "OSType.h"
+#include <time.h>
+
+#define HANDLE void*
+
+#define VERSION	"BASS_1.0.0_alpha_02"
+
+extern void NBDLog(const Int8 *fmt, ...);
+
+extern void TRACE(const Int8 *fmt, ...);
+
+//#define LOG NBDLog 
+
+#define		DEBUG_VERSION
+//#define	RELEASE_VERSION
+
+#if defined	DEBUG_VERSION
+	#define LOG 	NBDLog
+#elif defined	RELEASE_VERSION
+	#define	LOG
+#else
+	#define	LOG 	
+#endif
+
+//#define	_ROCKEY
+
+
+#define		TRUE	1
+#define		FALSE	0
+
+
+#define	MOBILENO_LENGTH  		64
+#define ACCOUNTNO_LENGTH 		64
+#define DATETIME_LENGTH    		32
+#define CHANNEL_LENGTH 			512
+
+#define TITLE_LENGTH 			128
+#define DESCRIBE_LENGTH 		256
+
+
+#define LINKCMD_BUSINESSAUTHREQ_V4	4000	//业务鉴权请求
+#define LINKCMD_AUTHSUCCESS_V4		4001	//鉴权成功
+#define LINKCMD_DATABASEINVALID_V4	4002	//数据库表打开失败
+#define LINKCMD_ACCOUNTINVALID_V4	4003	//无效的账号(该账号不存在或已过期)
+#define LINKCMD_IMEIBINDINVALID_V4	4004	//无效的绑定IMEI号
+
+
+#define	MAX_RECVIVE_LENGTH	(1024 * 80)
+#define	MAX_MEDIA_INFO_LEN	4096
+
+typedef struct tagPacketHead
+{
+	UInt16 	packet_size;		//包含头字节，即消息头＋消息体的总大小，单位：字节
+	UInt16	func_no;		//功能号  
+}PacketHead,*LPPacketHead;
+  
+typedef struct tagQueryResult
+{
+     	int query_result;     //查询结果，0:成功  非0：失败错误码
+ 	char query_info[TITLE_LENGTH];  //查询结果信息
+ 	UInt32 send_time;
+}QueryResult;
+
+typedef struct tagQueryUsersInfo
+{	
+ 	char MobileNo[MOBILENO_LENGTH];	
+ 	char AccountNo[ACCOUNTNO_LENGTH];
+ 	char ExpiredTime[DATETIME_LENGTH];
+}QueryUsersInfo;
+
+
+typedef struct tagEndUsersInfo
+{
+     	int ID;     	
+ 	char MobileNo[MOBILENO_LENGTH];	
+ 	char AccountNo[ACCOUNTNO_LENGTH];
+ 	char ExpiredTime[DATETIME_LENGTH];
+ 	char Channels[CHANNEL_LENGTH];
+}EndUsersInfo;
+
+typedef struct tagChannelsInfo
+{
+     	int ID;     	
+ 	char Title[TITLE_LENGTH];	
+ 	char Describe[DESCRIBE_LENGTH];
+ 	char Language[64];
+ 	char Country[64];
+ 	char LastUpdate[32];
+ 	char Status[16];
+ 	char Company[64];
+ 	char Class[16];
+ 	char Price[16];
+ 	char Addr[512];
+}ChannelsInfo;
+
+extern HANDLE g_DBClass;
+
+extern pthread_mutex_t	g_mutex_lock;
+
+#endif
+
